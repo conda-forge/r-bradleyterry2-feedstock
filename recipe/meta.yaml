@@ -15,14 +15,14 @@ source:
   sha256: 2d8cf29094552f01d28880e0ad2084be4441c6ef820f288117d479c2ddc10081
 
 build:
-  number: 0
-  skip: true  # [win32]
+  noarch: generic
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
 
 requirements:
-  build:
+  host:
     - r-base
     - r-brglm
     - r-gtools
@@ -51,3 +51,4 @@ extra:
   recipe-maintainers:
     - johanneskoester
     - bgruening
+    - dpryan79
