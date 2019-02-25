@@ -27,11 +27,13 @@ requirements:
     - r-brglm
     - r-gtools
     - r-lme4 >=1.0
+    - r-qvcalc
   run:
     - r-base
     - r-brglm
     - r-gtools
     - r-lme4 >=1.0
+    - r-qvcalc
 
 test:
   commands:
@@ -49,6 +51,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - johanneskoester
-    - bgruening
-    - dpryan79
+    - conda-forge/r
