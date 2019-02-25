@@ -1,4 +1,4 @@
-{% set version = '1.0-6' %}
+{% set version = "1.0-9" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/BradleyTerry2_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/BradleyTerry2/BradleyTerry2_{{ version }}.tar.gz
-  sha256: 2d8cf29094552f01d28880e0ad2084be4441c6ef820f288117d479c2ddc10081
+  sha256: 56108638cba7031d1747c802c5ecdb4c7a7840b0d39f50f73f6e1d149712d083
 
 build:
   noarch: generic
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
