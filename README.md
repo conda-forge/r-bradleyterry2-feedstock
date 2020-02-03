@@ -1,16 +1,13 @@
 About r-bradleyterry2
 =====================
 
-Home: http://bradleyterry2.r-forge.r-project.org
+Home: https://github.com/hturner/BradleyTerry2
 
-Package license: GPL (>= 2)
+Package license: GPL-2
 
 Feedstock license: BSD 3-Clause
 
-Summary: Specify and fit the Bradley-Terry model, including structured versions in which the
-parameters are related to explanatory variables through a linear predictor and versions
-with contest-specific effects, such as a home advantage.
-
+Summary: Specify and fit the Bradley-Terry model, including structured versions in which the parameters are related to explanatory variables through a linear predictor and versions with contest-specific effects, such as a home advantage.
 
 
 
