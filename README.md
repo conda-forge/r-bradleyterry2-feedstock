@@ -1,11 +1,11 @@
-About r-bradleyterry2
-=====================
+About r-bradleyterry2-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bradleyterry2-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/hturner/BradleyTerry2
 
 Package license: GPL-2
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bradleyterry2-feedstock/blob/main/LICENSE.txt)
 
 Summary: Specify and fit the Bradley-Terry model, including structured versions in which the parameters are related to explanatory variables through a linear predictor and versions with contest-specific effects, such as a home advantage.
 
