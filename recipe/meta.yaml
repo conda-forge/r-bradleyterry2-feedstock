@@ -1,4 +1,4 @@
-{% set version = '1.1-2' %}
+{% set version = "1.1.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/BradleyTerry2_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/BradleyTerry2/BradleyTerry2_{{ version }}.tar.gz
-  sha256: 5128a262ac72e34ce6d63e74e295f849c2c715a53b57a782fde23372561c5a6f
+  sha256: 066f061c6fae8cace18a4bae8d4eebec12be06f6dbc38d4f65f355ae586112f2
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -42,9 +42,7 @@ test:
 about:
   home: https://github.com/hturner/BradleyTerry2
   license: GPL-2
-  summary: Specify and fit the Bradley-Terry model, including structured versions in which the
-    parameters are related to explanatory variables through a linear predictor and versions
-    with contest-specific effects, such as a home advantage.
+  summary: Specify and fit the Bradley-Terry model, including structured versions in which the parameters are related to explanatory variables through a linear predictor and versions with contest-specific effects, such as a home advantage.
   license_family: GPL2
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
