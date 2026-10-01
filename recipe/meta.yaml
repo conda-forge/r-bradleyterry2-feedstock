@@ -1,4 +1,4 @@
-{% set version = "1.1.3" %}
+{% set version = "1.1.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/BradleyTerry2_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/BradleyTerry2/BradleyTerry2_{{ version }}.tar.gz
-  sha256: 066f061c6fae8cace18a4bae8d4eebec12be06f6dbc38d4f65f355ae586112f2
+  sha256: 71f74bfb71a49ea52f00969c72717fb1e801a4b53e5339027fdc57661e72433f
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
